@@ -1,12 +1,12 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Controllers;
+namespace Sikeat7\KeycloakWebGuard\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
-use Sikeat\KeycloakWebGuard\Exceptions\KeycloakCallbackException;
-use Sikeat\KeycloakWebGuard\Facades\KeycloakWeb;
+use Sikeat7\KeycloakWebGuard\Exceptions\KeycloakCallbackException;
+use Sikeat7\KeycloakWebGuard\Facades\KeycloakWeb;
 
 class AuthController extends Controller
 {

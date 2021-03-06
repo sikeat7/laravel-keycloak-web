@@ -21,16 +21,16 @@
     },
     "autoload": {
         "psr-4": {
-            "sikeat\\KeycloakWebGuard\\": "src/"
+            "Sikeat7\\KeycloakWebGuard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "sikeat\\KeycloakWebGuard\\KeycloakWebGuardServiceProvider"
+                "Sikeat7\\KeycloakWebGuard\\KeycloakWebGuardServiceProvider"
             ],
             "aliases": {
-                "KeycloakWeb": "sikeat\\KeycloakWebGuard\\Facades\\KeycloakWeb"
+                "KeycloakWeb": "Sikeat7\\KeycloakWebGuard\\Facades\\KeycloakWeb"
             }
         }
     }

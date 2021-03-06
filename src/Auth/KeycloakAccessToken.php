@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Auth;
+namespace Sikeat7\KeycloakWebGuard\Auth;
 
 use Exception;
 

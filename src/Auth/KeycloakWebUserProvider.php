@@ -1,10 +1,10 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Auth;
+namespace Sikeat7\KeycloakWebGuard\Auth;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
-use Sikeat\KeycloakWebGuard\Models\KeycloakUser;
+use Sikeat7\KeycloakWebGuard\Models\KeycloakUser;
 
 class KeycloakWebUserProvider implements UserProvider
 {

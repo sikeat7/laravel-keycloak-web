@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Exceptions;
+namespace Sikeat7\KeycloakWebGuard\Exceptions;
 
 use Illuminate\Auth\AuthenticationException;
 

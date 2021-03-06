@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Middleware;
+namespace Sikeat7\KeycloakWebGuard\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate;
 

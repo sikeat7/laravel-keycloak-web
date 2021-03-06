@@ -1,15 +1,15 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Auth\Guard;
+namespace Sikeat7\KeycloakWebGuard\Auth\Guard;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
-use Sikeat\KeycloakWebGuard\Auth\KeycloakAccessToken;
-use Sikeat\KeycloakWebGuard\Exceptions\KeycloakCallbackException;
-use Sikeat\KeycloakWebGuard\Models\KeycloakUser;
-use Sikeat\KeycloakWebGuard\Facades\KeycloakWeb;
+use Sikeat7\KeycloakWebGuard\Auth\KeycloakAccessToken;
+use Sikeat7\KeycloakWebGuard\Exceptions\KeycloakCallbackException;
+use Sikeat7\KeycloakWebGuard\Models\KeycloakUser;
+use Sikeat7\KeycloakWebGuard\Facades\KeycloakWeb;
 use Illuminate\Contracts\Auth\UserProvider;
 class KeycloakWebGuard implements Guard
 {

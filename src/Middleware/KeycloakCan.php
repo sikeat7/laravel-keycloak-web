@@ -1,10 +1,10 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Middleware;
+namespace Sikeat7\KeycloakWebGuard\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Sikeat\KeycloakWebGuard\Exceptions\KeycloakCanException;
+use Sikeat7\KeycloakWebGuard\Exceptions\KeycloakCanException;
 
 class KeycloakCan extends KeycloakAuthenticated
 {

@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="https://img.shields.io/packagist/v/sikeat/laravel-keycloak-web.svg" />
-    <img src="https://img.shields.io/packagist/dt/sikeat/laravel-keycloak-web.svg" />
+    <img src="https://img.shields.io/packagist/v/sikeat7/laravel-keycloak-web.svg" />
+    <img src="https://img.shields.io/packagist/dt/sikeat7/laravel-keycloak-web.svg" />
 </p>
 
 # Keycloak Web Guard for Laravel
@@ -39,13 +39,13 @@ Any other version is not guaranteed to work.
 Require the package
 
 ```
-composer require sikeat/laravel-keycloak-web
+composer require sikeat7/laravel-keycloak-web
 ```
 
 If you want to change routes or the default values for Keycloak, publish the config file:
 
 ```
-php artisan vendor:publish  --provider="Sikeat\KeycloakWebGuard\KeycloakWebGuardServiceProvider"
+php artisan vendor:publish  --provider="Sikeat7\KeycloakWebGuard\KeycloakWebGuardServiceProvider"
 
 ```
 
@@ -127,7 +127,7 @@ And change your provider config too:
 'providers' => [
     'users' => [
         'driver' => 'keycloak-users',
-        'model' => Sikeat\KeycloakWebGuard\Models\KeycloakUser::class,
+        'model' => Sikeat7\KeycloakWebGuard\Models\KeycloakUser::class,
     ],
 
     // ...
@@ -203,7 +203,7 @@ You can extend it and register your own middleware on Kernel.php or just use `Au
 
 We registered a new user provider that you configured on `config/auth.php` called "keycloak-users".
 
-In this same configuration you setted the model. So you can register your own model extending `Sikeat\KeycloakWebGuard\Models\KeycloakUser` class and changing this configuration.
+In this same configuration you setted the model. So you can register your own model extending `Sikeat7\KeycloakWebGuard\Models\KeycloakUser` class and changing this configuration.
 
 You can implement your own [User Provider](https://laravel.com/docs/5.8/authentication#adding-custom-user-providers): just remember to implement the `retrieveByCredentials` method receiving the Keycloak Profile information to retrieve a instance of model.
 

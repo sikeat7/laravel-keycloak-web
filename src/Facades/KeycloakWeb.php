@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Facades;
+namespace Sikeat7\KeycloakWebGuard\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

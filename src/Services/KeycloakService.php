@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Services;
+namespace Sikeat7\KeycloakWebGuard\Services;
 
 use Exception;
 use GuzzleHttp\ClientInterface;
@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
-use Sikeat\KeycloakWebGuard\Auth\KeycloakAccessToken;
-use Sikeat\KeycloakWebGuard\Auth\Guard\KeycloakWebGuard;
+use Sikeat7\KeycloakWebGuard\Auth\KeycloakAccessToken;
+use Sikeat7\KeycloakWebGuard\Auth\Guard\KeycloakWebGuard;
 
 class KeycloakService
 {

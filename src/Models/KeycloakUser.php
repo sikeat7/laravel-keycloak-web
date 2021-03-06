@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard\Models;
+namespace Sikeat7\KeycloakWebGuard\Models;
 
 use Auth;
 use Illuminate\Contracts\Auth\Authenticatable;

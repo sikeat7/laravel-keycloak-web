@@ -1,6 +1,6 @@
 <?php
 
-namespace Sikeat\KeycloakWebGuard;
+namespace Sikeat7\KeycloakWebGuard;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -9,12 +9,12 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
-use Sikeat\KeycloakWebGuard\Auth\Guard\KeycloakWebGuard;
-use Sikeat\KeycloakWebGuard\Auth\KeycloakWebUserProvider;
-use Sikeat\KeycloakWebGuard\Middleware\KeycloakAuthenticated;
-use Sikeat\KeycloakWebGuard\Middleware\KeycloakCan;
-use Sikeat\KeycloakWebGuard\Models\KeycloakUser;
-use Sikeat\KeycloakWebGuard\Services\KeycloakService;
+use Sikeat7\KeycloakWebGuard\Auth\Guard\KeycloakWebGuard;
+use Sikeat7\KeycloakWebGuard\Auth\KeycloakWebUserProvider;
+use Sikeat7\KeycloakWebGuard\Middleware\KeycloakAuthenticated;
+use Sikeat7\KeycloakWebGuard\Middleware\KeycloakCan;
+use Sikeat7\KeycloakWebGuard\Models\KeycloakUser;
+use Sikeat7\KeycloakWebGuard\Services\KeycloakService;
 
 class KeycloakWebGuardServiceProvider extends ServiceProvider
 {
