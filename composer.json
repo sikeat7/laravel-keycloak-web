@@ -2,6 +2,7 @@
     "name": "sikeat7/laravel-keycloak-web",
     "description": "Laravel Keycloak Guard Web Routes",
     "homepage": "https://github.com/sikeat7/laravel-keycloak-web",
+    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "laravel",
